@@ -1,0 +1,13 @@
+.logo{
+    filter: invert(62%) sepia(98%) saturate(5141%) hue-rotate(205deg) brightness(99%) contrast(105%);
+    height: 2vw;
+    min-height: 25px;
+}
+
+.logos-div{
+    display: flex;
+    margin: 4vh auto 0 auto;
+    justify-content: space-between;
+    width: 30vw;
+    min-width: 200px;
+}

@@ -1,0 +1,25 @@
+.not-show{
+    transform: translateY(130%);
+    transition-timing-function: ease-in;
+    transition: 1s;
+    opacity: 0;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+
+.show{
+    transition: 1s;
+    transition-timing-function: ease-out;
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 0.5s;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.self-image-div{
+    overflow: hidden;
+    display: grid;
+    margin-bottom: 10px;
+}

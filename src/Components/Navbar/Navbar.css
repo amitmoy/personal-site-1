@@ -1,0 +1,15 @@
+
+
+.transperant-bg-transition{
+    background-color: transparent;
+    transition: .2s ease-in;
+}
+
+.light-bg-transition{
+    background-color:#464646;
+    transition: .2s ease-in;
+}
+
+.nav-font{
+    color: white;
+}
